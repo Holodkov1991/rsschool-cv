@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://GITHUB-Holodkov1991.github.io/rsschool-cv/cv
