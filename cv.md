@@ -18,15 +18,15 @@ I want to be a good specialist!
 * CSS/SASS
 ***
 ## **Code Example:**
-```<form> 
+<form> 
   <select>
         <option>CSS/SASS</option>
         <option>HTMl</option>
         <option>Macdown</option>
     </select>
 </form>
-```
-****
+
+***
 ## **Experience:**
 ***
 ## **Courses**:

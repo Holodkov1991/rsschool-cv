@@ -1,3 +1,117 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+@font-face {
+    font-family: Roboto;
+    src: url("assets/fonts/Roboto.ttf");
+}
+* {
+    box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0px 150px 0px 150px;
+   flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+  max-width: 1440px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4a0439;
+background-color: rgb(210, 204, 196);
+}
+.container {
+  max-width: 1440px;  
+  margin: 0 auto;
+  color: rgb(72, 10, 80)
+}
+.skills {
+  display: flex;
+}
+.example {
+  margin-left: 75px;
+}
+.example__content {
+  margin-top: -23px;
+}
+.top {
+margin-top: 15px;
+}
+.language{
+  margin-left: 92px ;
+  margin-top: -102px
+}
+html {
+  scroll-behavior: smooth; 
+}
+.nav-list {
+  list-style: none;
+  padding: 20px 40px;
+  line-height: 40px;
+}
+.nav-link {
+  transition: .3s;
+}
+.section-item a {
+  color: #829985;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+.section-item a:hover {
+  color: rgb(210, 204, 196);
+}
+.relative-position {
+   position: relative;
+   top: 100px;
+   right: 50px;
+   }
+.header {
+    font-size: 50px;
+    border: 0px solid black;
+    margin: 0 auto;
+    height: 60px;
+    color: rgb(72, 10, 80);
+    background-color: rgb(210, 204, 196)
+}
+.section-title {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(72, 10, 80);
+  }
 .main {
-    max-width: 1440px;
+    margin: 0 auto;
+    border: 2px solid rgb(210, 204, 196);
+}
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section {
+    width: 50%;
+  }
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
+  .rss {
+    width: 121px;
+    height: 45px;
+    background-image: url("./assets/img/photo.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+.footer {
+    font-weight: normal;
+    border: 5px solid rgb(210, 204, 196);
+    font-size: 20px;
+    margin-top: -15px;
+}    
+.end {
+  margin-top: -69px;
+  margin-left: 290px;
 }
