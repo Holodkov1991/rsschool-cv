@@ -13,7 +13,7 @@ body {
   min-height: 100vh;
   margin: 0 auto;
   padding: 0px 150px 0px 150px;
-   flex-direction: column;
+  flex-direction: column;
   font-family: 'Roboto', sans-serif;
   max-width: 1440px;
   font-size: 14px;
@@ -21,6 +21,16 @@ body {
   line-height: 1.5;
   color: #4a0439;
 background-color: rgb(210, 204, 196);
+}
+.avatar {
+  border-radius: 100%;
+  padding: 8px;
+  border: 4px solid #0b8f1d 
+}
+.nav-item {
+  align-items: center;
+  list-style: none;
+  margin-top: 7px;
 }
 .container {
   max-width: 1440px;  
@@ -39,20 +49,31 @@ background-color: rgb(210, 204, 196);
 .top {
 margin-top: 15px;
 }
-.language{
+.language {
   margin-left: 92px ;
   margin-top: -102px
 }
+.my_project {
+  margin-top: 10px;
+  margin-left: 50px;
+}
 html {
   scroll-behavior: smooth; 
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+  max-width: 452px;
+  margin-top: -1px;
+  
+}
+.decoration {
+  text-decoration: none;
 }
 .nav-list {
   list-style: none;
   padding: 20px 40px;
   line-height: 40px;
-}
-.nav-link {
-  transition: .3s;
 }
 .section-item a {
   color: #829985;
@@ -68,12 +89,10 @@ html {
    right: 50px;
    }
 .header {
-    font-size: 50px;
-    border: 0px solid black;
-    margin: 0 auto;
-    height: 60px;
-    color: rgb(72, 10, 80);
-    background-color: rgb(210, 204, 196)
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 30px;
 }
 .section-title {
     font-size: 20px;
@@ -91,7 +110,7 @@ html {
     flex-wrap: wrap;
   }
   .section {
-    width: 50%;
+    width: 100%;
   }
   @media (max-width: 768px) {
     .section {
@@ -107,11 +126,26 @@ html {
   }
 .footer {
     font-weight: normal;
-    border: 5px solid rgb(210, 204, 196);
+    border: 2px solid rgb(210, 204, 196);
     font-size: 20px;
     margin-top: -15px;
-}    
+}  
+.icon__footer {
+  margin-left: 620px;
+}  
 .end {
-  margin-top: -69px;
-  margin-left: 290px;
-}
+  margin-top: -59px;
+  margin-left: 12px;
+  transition: .3s;
+  color: black;
+  }
+ .img__footer {
+    margin-top:-15px;
+    margin-left: 1px;
+  }
+  .years 
+  {
+    margin-top: -50px;
+    margin-left: 325px;
+    color: black
+  }
